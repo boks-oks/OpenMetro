@@ -79,6 +79,4 @@ It’s a preservation + revival project for anyone who misses headlines and stoc
 
 ---
 
-## 📜 License
-
-**MIT** – use freely, modify wildly, and please don’t sue me.
+## 📜 License: MIT
