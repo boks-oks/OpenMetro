@@ -4,17 +4,25 @@
 
 ![LiveTilesStatic](https://github.com/user-attachments/assets/2ffc4aa7-5d50-4523-a0b8-0c2464bd609f)
 |:--:| 
-| *Live Tiles using OpenMetro* |
+| *Live Tiles via OpenMetro* |
 
 It intercepts tile data requests from apps like News, Weather, and Finance, then feeds them updated info from sources like ESPN or BBC News.  
-It’s a preservation + revival project for anyone who misses headlines and stock updates on their Start screen.
+It’s a preservation + revival project for anyone who misses Live Tiles on the Start Screen.
 
 ![NewsTileUpdate](https://github.com/user-attachments/assets/65d9a13e-cdd4-4d71-8abb-e23f3204b9be)
 |:--:| 
-| *A Live Tile updating using OpenMetro.* |
+| *A Live Tile updating via OpenMetro.* |
 
 > [!NOTE]
 > Currently, only **Live Tile data** is being restored — the full apps themselves are not functional through this proxy yet.
+
+---
+
+## Why "OpenMetro"?
+
+"Metro" refers to the bold, typography-focused design language used in Windows 8.x.
+
+"Open" reflects the spirit of open-source — anyone can view, use, and contribute to the project.
 
 ---
 
