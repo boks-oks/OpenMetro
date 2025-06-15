@@ -2,16 +2,23 @@
 
 **OpenMetro** is a mitmproxy script that brings Windows 8.1’s Live Tiles back to life using modern APIs.
 
+<details>
+<summary>📸 Screenshots</summary>
+
 ![LiveTilesStatic](https://github.com/user-attachments/assets/2ffc4aa7-5d50-4523-a0b8-0c2464bd609f)
 |:--:| 
 | *Live Tiles via OpenMetro* |
 
-It intercepts tile data requests from apps like News, Weather, and Finance, then feeds them updated info from sources like ESPN or BBC News.  
-It’s a preservation + revival project for anyone who misses Live Tiles on the Start Screen.
-
 ![NewsTileUpdate](https://github.com/user-attachments/assets/65d9a13e-cdd4-4d71-8abb-e23f3204b9be)
 |:--:| 
 | *A Live Tile updating via OpenMetro.* |
+
+</details>
+
+It intercepts tile data requests from apps like News, Weather, and Finance, then feeds them updated info from sources like ESPN or BBC News.  
+It’s a preservation + revival project for anyone who misses Live Tiles on the Start Screen.
+
+> For setup instructions, see [here.](./setup.md)
 
 > [!NOTE]
 > Currently, only **Live Tile data** is being restored — the full apps themselves are not functional through this proxy yet.
@@ -32,9 +39,9 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 
 | Tile                | Status             | Notes                                  |
 |---------------------|--------------------|----------------------------------------|
-| **News**            | ✅ Mostly complete  | Multiple articles, no images (yet)     |
-| **Sports**          | 🔄 In progress      | Placeholder data only                  |
-| **Finance**         | ✅ Mostly complete  | One article only, no images            |
+| **News**            | ✅ Complete         | Multiple articles, images              |
+| **Sports**          | 🟧 Minimal          | One article, no images                 |
+| **Finance**         | ✅ Mostly complete  | Multiple articles, no images            |
 | **Weather**         | ❓ Unknown          | Uses an obscure format                 |
 | **Health & Fitness**| ❓ Unknown          | Appears similar to Weather             |
 | **Food & Drink**    | ❓ Unknown          | Similar structure to Weather           |
@@ -64,8 +71,6 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 - A PC or VM running **Windows 8.1**  
   *(Only tested with Start screen Live Tiles.)*
 
-📦 See [setup.md](./setup.md) for installation and proxy configuration.
-
 ---
 
 ## 🎯 Goals
@@ -88,5 +93,7 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 ---
 ##### Please note that OpenMetro is still in development and may contain bugs.
 ---
-
+### 🌐 Sources
+##### [Analysis of `http://en-US.appex-rf.msn.com/cgtile/v1/en-US/News/Today.xml` on any.run](https://any.run/report/0170ceadd75b172e238c8c1c4cd1ab8d6df5aefde999733295ccf57d007630ea/c1ed3fbc-4ea6-4d0f-ac4b-12580eeb9f32)
+--
 ## 📜 License: MIT
