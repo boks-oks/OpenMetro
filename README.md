@@ -45,13 +45,13 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 | **Weather**         | ❓ Unknown          | Uses an obscure format                 |
 | **Health & Fitness**| ❓ Unknown          | Appears similar to Weather             |
 | **Food & Drink**    | ❓ Unknown          | Similar structure to Weather           |
-| **Calendar/Mail**   | 🚫 Maybe            | Requires Microsoft Account authentication |
+| **Calendar/Mail**   | ❌ Not planned      | Requires Microsoft Account authentication |
 
 ---
 
 ### Apps
 
-| App                  | Will Be Revived? | Status / Notes                                 |
+| App                  | Planned?         | Status / Notes                                 |
 |----------------------|------------------|------------------------------------------------|
 | **News**             | ❗ Definitely     | Needs research into request/response format    |
 | **Sports**           | ❗ Definitely     | Same as above                                  |
@@ -59,7 +59,7 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 | **Weather**          | ❓ Maybe          | Format unknown                                 |
 | **Health & Fitness** | ❗ Definitely     | Not a current priority                         |
 | **Food & Drink**     | ❓ Maybe          | Not a current priority                         |
-| **Calendar/Mail**    | ❓ Maybe          | Requires Microsoft Account auth                |
+| **Calendar/Mail**    | ❌ Not planned    | Requires Microsoft Account authentication      |
 | **Windows Store**    | ⁉️ Maybe          | Low priority – requires extensive reverse engineering |
 
 ---
@@ -86,9 +86,6 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 - [ ] 🏬 **Windows Store revival**
   - [ ] Serve custom Metro-style apps via proxy
   - [ ] Support viewing (but not purchasing) paid or unavailable apps
-
-### Bonus / Stretch Goals
-- [ ] ✉️ **Bypass Microsoft Account authentication** for Calendar/Mail *(if possible)*
 
 ---
 ##### Please note that OpenMetro is still in development and may contain bugs.
