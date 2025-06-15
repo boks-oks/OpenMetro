@@ -38,7 +38,7 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 | **Weather**         | ❓ Unknown          | Uses an obscure format                 |
 | **Health & Fitness**| ❓ Unknown          | Appears similar to Weather             |
 | **Food & Drink**    | ❓ Unknown          | Similar structure to Weather           |
-| **Calendar/Mail**   | 🚫 Not implemented | Requires Microsoft Account authentication |
+| **Calendar/Mail**   | 🚫 Maybe            | Requires Microsoft Account authentication |
 
 ---
 
@@ -49,11 +49,11 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 | **News**             | ❗ Definitely     | Needs research into request/response format    |
 | **Sports**           | ❗ Definitely     | Same as above                                  |
 | **Finance**          | ❗ Definitely     | Same as above                                  |
-| **Weather**          | ❓ Maybe          | Format unknown — will explore                  |
+| **Weather**          | ❓ Maybe          | Format unknown                                 |
 | **Health & Fitness** | ❗ Definitely     | Not a current priority                         |
 | **Food & Drink**     | ❓ Maybe          | Not a current priority                         |
-| **Calendar/Mail**    | 🚫 No            | Requires Microsoft Account auth                |
-| **Windows Store**    | ⁉️ Maybe         | Low priority – requires extensive reverse engineering |
+| **Calendar/Mail**    | ❓ Maybe          | Requires Microsoft Account auth                |
+| **Windows Store**    | ⁉️ Maybe          | Low priority – requires extensive reverse engineering |
 
 ---
 
@@ -62,17 +62,17 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 - Python 3.x
 - [`mitmproxy`](https://mitmproxy.org) (`pip install mitmproxy`)
 - A PC or VM running **Windows 8.1**  
-  *(Only tested with Start screen Live Tiles. Other OSes not supported.)*
+  *(Only tested with Start screen Live Tiles.)*
 
 📦 See [setup.md](./setup.md) for installation and proxy configuration.
 
----
 ---
 
 ## 🎯 Goals
 
 ### Main Goals
-- [x] **Basic Live Tile functionality**
+- [x] **Basic** Live Tile functionality
+- [ ] **Full** Live Tile functionality
 - [ ] ✅ **Revive most Metro apps**, including their Live Tiles
 - [ ] 🛠️ **Create an installer** (`.EXE` or `.MSI`) for easy setup
 - [ ] 🖥️ **Build a GUI**
@@ -85,6 +85,8 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 ### Bonus / Stretch Goals
 - [ ] ✉️ **Bypass Microsoft Account authentication** for Calendar/Mail *(if possible)*
 
+---
+##### Please note that OpenMetro is still in development and may contain bugs.
 ---
 
 ## 📜 License: MIT
