@@ -77,7 +77,15 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 
 ### Main Goals
 - [x] **Basic** Live Tile functionality
+  - [x] Weather
+  - [x] News
+  - [x] Finance
+  - [x] Sports
 - [ ] **Full** Live Tile functionality
+  - [x] Weather
+  - [x] News
+  - [x] Finance
+  - [x] Sports
 - [ ] ✅ **Revive most Metro apps**, including their Live Tiles
 - [ ] 🛠️ **Create an installer** (`.EXE` or `.MSI`) for easy setup
 - [ ] 🖥️ **Build a GUI**
