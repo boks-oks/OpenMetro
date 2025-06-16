@@ -39,13 +39,13 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 
 | Tile                | Status             | Notes                                  |
 |---------------------|--------------------|----------------------------------------|
-| **News**            | ✅ Complete         | Multiple articles, images                |
-| **Sports**          | ✅ Complete         | One article, images                      |
-| **Finance**         | ✅ Complete         | Multiple articles, no images             |
-| **Weather**         | ✅ Complete         | Weather data, GeoIP                      |
-| **Health & Fitness**| ❓ Unknown          | Appears similar to Weather               |
-| **Food & Drink**    | ❓ Unknown          | Similar structure to Weather             |
-| **Calendar/Mail**   | ❌ Not planned      | Requires Microsoft Account authentication|
+| **News**            | 🟢 Complete         | Multiple articles, images                |
+| **Sports**          | 🟢 Complete         | One article, images                      |
+| **Finance**         | 🟢 Complete         | Multiple articles, no images             |
+| **Weather**         | 🟢 Complete         | Weather data, GeoIP                      |
+| **Health & Fitness**| 🟡 Unknown          | Appears similar to Weather               |
+| **Food & Drink**    | 🟡 Unknown          | Similar structure to Weather             |
+| **Calendar/Mail**   | 🔴 Not planned      | Requires Microsoft Account authentication|
 
 ---
 
@@ -53,14 +53,14 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 
 | App                  | Planned?         | Status / Notes                                 |
 |----------------------|------------------|------------------------------------------------|
-| **News**             | ❗ Definitely     | Needs research into request/response format    |
-| **Sports**           | ❗ Definitely     | Same as above                                  |
-| **Finance**          | ❗ Definitely     | Same as above                                  |
-| **Weather**          | ❓ Maybe          | Format unknown                                 |
-| **Health & Fitness** | ❗ Definitely     | Not a current priority                         |
-| **Food & Drink**     | ❓ Maybe          | Not a current priority                         |
-| **Calendar/Mail**    | ❌ Not planned    | Requires Microsoft Account authentication      |
-| **Windows Store**    | ⁉️ Maybe          | Low priority – requires extensive reverse engineering |
+| **News**             | 🟢 Definitely     | Needs research into request/response format    |
+| **Sports**           | 🟢 Definitely     | Same as above                                  |
+| **Finance**          | 🟢 Definitely     | Same as above                                  |
+| **Weather**          | 🟡 Maybe          | Format unknown                                 |
+| **Health & Fitness** | 🟢 Definitely     | Not a current priority                         |
+| **Food & Drink**     | 🟡 Maybe          | Not a current priority                         |
+| **Calendar/Mail**    | 🔴 Not planned    | Requires Microsoft Account authentication      |
+| **Windows Store**    | 🟠 Maybe          | Low priority – requires extensive reverse engineering |
 
 ---
 
