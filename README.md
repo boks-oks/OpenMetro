@@ -39,13 +39,13 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 
 | Tile                | Status             | Notes                                  |
 |---------------------|--------------------|----------------------------------------|
-| **News**            | ✅ Complete         | Multiple articles, images              |
-| **Sports**          | 🟧 Minimal          | One article, no images                 |
-| **Finance**         | ✅ Mostly complete  | Multiple articles, no images            |
-| **Weather**         | ❓ Unknown          | Uses an obscure format                 |
-| **Health & Fitness**| ❓ Unknown          | Appears similar to Weather             |
-| **Food & Drink**    | ❓ Unknown          | Similar structure to Weather           |
-| **Calendar/Mail**   | ❌ Not planned      | Requires Microsoft Account authentication |
+| **News**            | ✅ Complete         | Multiple articles, images                |
+| **Sports**          | ✅ Complete         | One article, images                      |
+| **Finance**         | 🟦 Mostly           | Multiple articles, no images             |
+| **Weather**         | ❓ Unknown          | Uses an obscure format                   |
+| **Health & Fitness**| ❓ Unknown          | Appears similar to Weather               |
+| **Food & Drink**    | ❓ Unknown          | Similar structure to Weather             |
+| **Calendar/Mail**   | ❌ Not planned      | Requires Microsoft Account authentication|
 
 ---
 
