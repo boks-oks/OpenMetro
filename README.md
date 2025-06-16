@@ -41,8 +41,8 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 |---------------------|--------------------|----------------------------------------|
 | **News**            | ✅ Complete         | Multiple articles, images                |
 | **Sports**          | ✅ Complete         | One article, images                      |
-| **Finance**         | 🟦 Mostly           | Multiple articles, no images             |
-| **Weather**         | ❓ Unknown          | Uses an obscure format                   |
+| **Finance**         | ✅ Complete         | Multiple articles, no images             |
+| **Weather**         | ✅ Complete         | Weather data, GeoIP                      |
 | **Health & Fitness**| ❓ Unknown          | Appears similar to Weather               |
 | **Food & Drink**    | ❓ Unknown          | Similar structure to Weather             |
 | **Calendar/Mail**   | ❌ Not planned      | Requires Microsoft Account authentication|
