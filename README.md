@@ -33,10 +33,9 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 
 ---
 
-## 🚧 Progress
-
-### Tiles
-
+## 🚧 Progress 
+![](https://img.shields.io/badge/Tiles%20Revived-4%2F7-brightgreen) 
+##### Tiles are Start Screen visuals powered by XML and local data.
 | Tile                | Status             | Notes                                  |
 |---------------------|--------------------|----------------------------------------|
 | **News**            | 🟢 Complete         | Multiple articles, images                |
@@ -47,10 +46,9 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 | **Food & Drink**    | 🟡 Unknown          | Similar structure to Weather             |
 | **Calendar/Mail**   | 🔴 Not planned      | Requires Microsoft Account authentication|
 
----
+![Apps Revived: None yet](https://img.shields.io/badge/Apps%20Revived%3A-None_yet-darkred)
 
-### Apps
-
+##### Apps are full-screen Metro applications requiring deeper reverse engineering and data proxying.
 | App                  | Planned?         | Status / Notes                                 |
 |----------------------|------------------|------------------------------------------------|
 | **News**             | 🟢 Definitely     | Needs research into request/response format    |
@@ -61,6 +59,15 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 | **Food & Drink**     | 🟡 Maybe          | Not a current priority                         |
 | **Calendar/Mail**    | 🔴 Not planned    | Requires Microsoft Account authentication      |
 | **Windows Store**    | 🟠 Maybe          | Low priority – requires extensive reverse engineering |
+
+---
+
+| Key                  |                                  |
+|----------------------|----------------------------------|
+| 🟢 Complete          | Fully revived and functional     |
+| 🟡 Unknown/Maybe     | Investigating feasibility        |
+| 🔴 Not planned       | Currently not practical          |
+| 🟠 Maybe             | Could be done, but not a priority|
 
 ---
 
