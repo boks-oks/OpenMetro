@@ -4,7 +4,7 @@
 
 <details>
 <summary>📸 Screenshots</summary>
-
+---
 ![LiveTilesStatic](https://github.com/user-attachments/assets/2ffc4aa7-5d50-4523-a0b8-0c2464bd609f)
 |:--:| 
 | *Live Tiles via OpenMetro* |
@@ -14,7 +14,7 @@
 | *A Live Tile updating via OpenMetro.* |
 
 > Images are out of date. Updated images will be uploaded once most bugs are ironed out.
-
+---
 </details>
 
 It intercepts tile data requests from apps like News, Weather, and Finance, then feeds them updated info from sources like ESPN or BBC News.  
