@@ -34,7 +34,7 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 ---
 
 ## 🚧 Progress 
-![](https://img.shields.io/badge/Tiles%20Revived-6%2F7-brightgreen)
+![](https://img.shields.io/badge/Tiles%20Revived-All%2F7-brightgreen)
 ##### Tiles are Start Screen visuals powered by XML and local data.
 
 | Tile                | Status             | Notes                                      |
@@ -43,7 +43,7 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 | **Sports**          | 🟢 Complete         | One article, images                        |
 | **Finance**         | 🟢 Complete         | Multiple articles, no images               |
 | **Weather**         | 🟢 Complete         | Weather data, GeoIP                        |
-| **Health & Fitness**| 🟡 Unknown          | Appears similar to Weather                 |
+| **Health & Fitness**| 🟢 Complete         | Shows a tip or fact from a predefined list |
 | **Food & Drink**    | 🟢 Complete         | Receives recipes from themealdb            |
 | **Calendar/Mail**   | 🔴 Not planned      | Requires Microsoft Account authentication  |
 
