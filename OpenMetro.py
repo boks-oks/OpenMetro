@@ -9,6 +9,9 @@ import math
 import time
 import csv
 from io import StringIO
+from PIL import Image
+from io import BytesIO
+import base64
 
 
 # --- Configuration & Constants ---
@@ -462,22 +465,23 @@ def generate_sports_tile(article_index=None):
         img = item.get("image")
         if ENABLE_IMAGES and img:
             image_url_150 = image_url_310x150 = image_url_310 = img
+    # Placeholder weather code for sports tile
+    openmeteo_weather_code = 5  # Example weather code
+    image_url = f"https://assets.msn.com/weathermapdata/1/static/mws-new/WeatherImages/210x173/{openmeteo_weather_code}.jpg?a"
 
     return f"""<tile>
-<visual version="2" lang="en-gb">
-<binding template="TileSquare150x150PeekImageAndText04" fallback="TileSquarePeekImageAndText04">
-<image id="1" src="{escape(image_url_150)}" alt=""/>
-<text id="1">{escape(headline)}</text>
-</binding>
-<binding template="TileWide310x150ImageAndText01" fallback="TileWideImageAndText01">
-<image id="1" src="{escape(image_url_310x150)}" alt=""/>
-<text id="1">{escape(headline)}</text>
-</binding>
-<binding template="TileSquare310x310ImageAndText01">
-<image id="1" src="{escape(image_url_310)}" alt=""/>
-<text id="1">{escape(headline)}</text>
-</binding>
-</visual>
+  <visual version="2">
+    <binding template="TileSquare310x310BlockAndText02">
+      <image id="1" src="{escape(image_url)}" alt="{escape(headline)}"/>
+      <text id="1">{escape(headline)}</text>
+      <text id="2">Sports News</text>
+      <text id="3">Updated Live</text>
+      <text id="4"></text>
+      <text id="5"></text>
+      <text id="6"></text>
+      <text id="7"></text>
+    </binding>  
+  </visual>
 </tile>"""
 
 
@@ -742,6 +746,88 @@ def generate_food_tile(article_index=0):
 </tile>"""
 
 
+def proxy_and_downscale_image(image_url, max_width=600):
+    """Fetches and downscales an image, returns a data URI."""
+    try:
+        headers = {
+            "User-Agent": "OpenMetro/1.0 (Windows NT 10.0; https://github.com/opentile/openmetro) Python/3.x"
+        }
+        resp = requests.get(image_url, timeout=10, headers=headers)
+        resp.raise_for_status()
+        img = Image.open(BytesIO(resp.content))
+        if img.width > max_width:
+            ratio = max_width / img.width
+            new_size = (max_width, int(img.height * ratio))
+            img = img.resize(new_size, Image.LANCZOS)
+        buf = BytesIO()
+        img.save(buf, format="JPEG", quality=80)
+        b64 = base64.b64encode(buf.getvalue()).decode("ascii")
+        return f"data:image/jpeg;base64,{b64}"
+    except Exception as e:
+        ctx.log.error(f"Image downscale error: {e}")
+        return PLACEHOLDER_IMAGE
+
+
+def get_travel_image(flow=None):
+    """Fetches a featured image from Wikimedia Commons and returns a direct thumbnail URL."""
+    try:
+        wikimedia_headers = {
+            "User-Agent": "OpenMetro/1.0 (Windows NT 10.0; https://github.com/opentile/openmetro) Python/3.x"
+        }
+        commons_url = "https://commons.wikimedia.org/w/api.php"
+        params = {
+            "action": "query",
+            "format": "json",
+            "list": "categorymembers",
+            "cmtitle": "Category:Featured_pictures_of_landscapes",
+            "cmlimit": "50",
+            "cmtype": "file",
+        }
+        resp = requests.get(
+            commons_url, params=params, headers=wikimedia_headers, timeout=10
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        files = data["query"]["categorymembers"]
+        if not files:
+            return PLACEHOLDER_IMAGE
+
+        chosen_file = random.choice(files)
+        image_info_params = {
+            "action": "query",
+            "format": "json",
+            "titles": chosen_file["title"],
+            "prop": "imageinfo",
+            "iiprop": "url",
+            "iiurlwidth": "600",  # Request thumbnail of 600px width
+        }
+        resp = requests.get(
+            commons_url, params=image_info_params, headers=wikimedia_headers, timeout=10
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        pages = data["query"]["pages"]
+        page = next(iter(pages.values()))
+        image_data = page["imageinfo"][0]
+        # Use thumburl if available (it is generated when iiurlwidth is set)
+        return image_data.get("thumburl", image_data.get("url", PLACEHOLDER_IMAGE))
+    except Exception as e:
+        ctx.log.error(f"Error fetching Wikimedia Commons image: {e}")
+        return PLACEHOLDER_IMAGE
+
+
+def generate_travel_tile(flow=None):
+    """Generates a travel tile using high-quality landscape images."""
+    image_url = get_travel_image()
+    return f"""<tile>
+  <visual version="2">
+    <binding template="TileSquare310x310Image">
+      <image id="1" src="{escape(image_url)}" alt="Travel Image"/>
+    </binding>  
+  </visual>
+</tile>"""
+
+
 def request(flow: http.HTTPFlow) -> None:
     """The main entry point for mitmproxy, called for every request."""
     url = flow.request.pretty_url
@@ -903,3 +989,23 @@ def request(flow: http.HTTPFlow) -> None:
     elif "en-us.appex-rf.msn.com/cg/v5/en-us/news/" in url:
         js_content = "// Mitmproxy: In-app content blocked to focus on Live Tile."
         make_response(js_content, "application/javascript; charset=utf-8")
+    # Travel App Tile - updated regex and handling (matches GET requests with any query string)
+    elif re.search(
+        r"travel\.tile\.appex\.bing\.com/api/livetile\.xml(\?.*)?$",
+        url,
+        re.IGNORECASE,
+    ):
+        ctx.log.info(f"Intercepted Travel Tile request for URL: {url}")
+        try:
+            tile_xml = generate_travel_tile(flow)
+            ctx.log.info(f"Generated travel tile XML length: {len(tile_xml)}")
+            make_response(tile_xml, "application/xml; charset=utf-8")
+        except Exception as e:
+            ctx.log.error(f"Error generating travel tile: {e}")
+            # Return a simple fallback tile on error
+            fallback_xml = """<?xml version="1.0" encoding="utf-8"?>
+<tile><visual version="2"><binding template="TileSquare150x150Text04">
+<text id="1">Travel images unavailable</text></binding></visual></tile>"""
+            make_response(fallback_xml)
+        cleanup_caches()
+        return
