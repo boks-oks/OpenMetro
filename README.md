@@ -86,11 +86,10 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 ## 🎯 Goals
 
 ### Main Goals
-- [x] **Basic** Live Tile functionality
-- [x] **Full** Live Tile functionality
-- [ ] ✅ **Revive most Metro apps**, including their Live Tiles
-- [ ] 🛠️ **Create an installer** (`.EXE` or `.MSI`) for easy setup
-- [ ] 🏬 **Windows Store revival**
+- [x]  **Live Tile** functionality
+- [ ] **Revive most Metro apps**, including their Live Tiles
+- [ ] **Create an installer** (`.EXE` or `.MSI`) for easy setup
+- [ ] **Windows Store revival**
   - [ ] Serve custom Metro-style apps via proxy
   - [ ] Support viewing (but not purchasing) paid or unavailable apps
 
