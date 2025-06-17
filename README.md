@@ -34,7 +34,7 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 ---
 
 ## 🚧 Progress 
-![](https://img.shields.io/badge/Tiles%20Revived-All-brightgreen)
+![](https://img.shields.io/badge/Tiles%20Revived-6%2F7-brightgreen)
 ##### Tiles are Start Screen visuals powered by XML and local data.
 
 | Tile                | Status             | Notes                                      |
