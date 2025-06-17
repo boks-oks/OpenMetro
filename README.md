@@ -13,7 +13,6 @@
 |:--:| 
 | *A Live Tile updating via OpenMetro.* |
 
-> [!NOTE]
 > Images are out of date. Updated images will be uploaded once most bugs are ironed out.
 
 </details>
