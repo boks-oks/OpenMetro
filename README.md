@@ -13,6 +13,10 @@
 |:--:| 
 | *A Live Tile updating via OpenMetro.* |
 
+> [!NOTE]
+> Images are out of date.
+> Updated images will be uploaded once most bugs are ironed out.
+
 </details>
 
 It intercepts tile data requests from apps like News, Weather, and Finance, then feeds them updated info from sources like ESPN or BBC News.  
@@ -21,7 +25,7 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 > For setup instructions, see [here.](./setup.md)
 
 > [!NOTE]
-> Currently, only **Live Tile data** is being restored — the full apps themselves are not functional through this proxy yet.
+> Currently, only **Live Tile data** is restored — the full apps themselves are not functional through this proxy yet.
 
 ---
 
@@ -34,7 +38,7 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 ---
 
 ## 🚧 Progress 
-![](https://img.shields.io/badge/Tiles%20Revived-All-brightgreen)
+![](https://img.shields.io/badge/Tiles%20Revived-All-brightgreen?style=for-the-badge)
 ##### Tiles are Start Screen visuals powered by XML and local data.
 
 | Tile                | Status             | Notes                                      |
@@ -49,7 +53,7 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 | **Calendar/Mail**   | 🔴 Not planned      | Requires Microsoft Account authentication  |
 
 
-![Apps Revived: None yet](https://img.shields.io/badge/Apps%20Revived%3A-None_yet-darkred)
+![Apps Revived: None yet](https://img.shields.io/badge/Apps%20Revived%3A-None_yet-darkred?style=for-the-badge)
 
 ##### Apps are full-screen Metro applications requiring deeper reverse engineering and data proxying.
 | App                  | Planned?         | Status / Notes                                 |
@@ -101,7 +105,7 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 ##### [Analysis of `http://en-US.appex-rf.msn.com/cgtile/v1/en-US/News/Today.xml` on any.run](https://any.run/report/0170ceadd75b172e238c8c1c4cd1ab8d6df5aefde999733295ccf57d007630ea/c1ed3fbc-4ea6-4d0f-ac4b-12580eeb9f32)
 ---
 
-![](https://img.shields.io/badge/Mentioned%20by-Copilot-blueviolet?logo=microsoft) 
+![](https://img.shields.io/badge/Mentioned%20by-Copilot-blueviolet?style=for-the-badge)
 |:--:| 
 | *I’m not even joking, try it for yourself!* |
 
