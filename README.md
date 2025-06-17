@@ -45,6 +45,7 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 | **Weather**         | 🟢 Complete         | Weather data, GeoIP                        |
 | **Health & Fitness**| 🟢 Complete         | Shows a tip or fact from a predefined list |
 | **Food & Drink**    | 🟢 Complete         | Receives recipes from themealdb            |
+| **Travel**          | 🟡 In progress      | Working on it                              |
 | **Calendar/Mail**   | 🔴 Not planned      | Requires Microsoft Account authentication  |
 
 
@@ -86,20 +87,9 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 
 ### Main Goals
 - [x] **Basic** Live Tile functionality
-  - [x] Weather
-  - [x] News
-  - [x] Finance
-  - [x] Sports
 - [ ] **Full** Live Tile functionality
-  - [x] Weather
-  - [x] News
-  - [x] Finance
-  - [x] Sports
 - [ ] ✅ **Revive most Metro apps**, including their Live Tiles
 - [ ] 🛠️ **Create an installer** (`.EXE` or `.MSI`) for easy setup
-- [ ] 🖥️ **Build a GUI**
-  - [ ] Show revival status
-  - [ ] Enable/disable specific revived Metro apps
 - [ ] 🏬 **Windows Store revival**
   - [ ] Serve custom Metro-style apps via proxy
   - [ ] Support viewing (but not purchasing) paid or unavailable apps
