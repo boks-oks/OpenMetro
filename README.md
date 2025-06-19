@@ -40,8 +40,6 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 
 ## 🚧 Progress 
 ![](https://img.shields.io/badge/Tiles%20Revived-All-brightgreen?style=for-the-badge)
-##### Tiles are Start Screen visuals powered by XML and local data.
-
 | Tile                | Status             | Notes                                      |
 |---------------------|--------------------|--------------------------------------------|
 | **News**            | 🟢 Complete         | Multiple articles, images                  |
@@ -53,10 +51,8 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 | **Travel**          | 🟢 Complete         | Shows landscape images from Wikimedia      |
 | **Calendar/Mail**   | 🔴 Not planned      | Requires Microsoft Account authentication  |
 
-
+<!--
 ![Apps Revived: None yet](https://img.shields.io/badge/Apps%20Revived%3A-None_yet-darkred?style=for-the-badge)
-
-##### Apps are full-screen Metro applications requiring deeper reverse engineering and data proxying.
 | App                  | Planned?         | Status / Notes                                 |
 |----------------------|------------------|------------------------------------------------|
 | **News**             | 🟢 Definitely     | Needs research into request/response format    |
@@ -67,6 +63,25 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 | **Food & Drink**     | 🟡 Maybe          | Not a current priority                         |
 | **Calendar/Mail**    | 🔴 Not planned    | Requires Microsoft Account authentication      |
 | **Windows Store**    | 🟠 Maybe          | Low priority – requires extensive reverse engineering |
+I'll come back to this.
+-->
+---
+
+![Apps](https://img.shields.io/badge/App_Revival-Not_any_time_soon-darkred?style=for-the-badge)
+
+| App                  | Planned?                | Status / Notes                          |
+|----------------------|-------------------------|-----------------------------------------|
+| **News**             | ⚫ At a later date.     |  None                                   |
+| **Sports**           | ⚫ At a later date.     |  None                                   |
+| **Finance**          | ⚫ At a later date.     |  None                                   |
+| **Weather**          | ⚫ At a later date.     |  None                                   |
+| **Health & Fitness** | ⚫ At a later date.     |  None                                   |
+| **Food & Drink**     | ⚫ At a later date.     |  None                                   |
+| **Calendar/Mail**    | ⚫ At a later date.     |  None                                   |
+| **Windows Store**    | ⚫ At a later date.     |  None                                   |
+
+> I'm not going to revive apps just yet.
+> I need a break after working on this for over a week.
 
 ---
 
