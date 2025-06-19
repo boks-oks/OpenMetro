@@ -3,6 +3,9 @@
 **OpenMetro** is a mitmproxy script that brings Windows 8.1’s Live Tiles back to life using modern APIs.
 ---
 
+> [!WARNING]
+> I'm reworking the code to OpenMetro. Stay tuned for updates!
+
 <details>
 <summary>📸 Screenshots</summary>
 
@@ -21,13 +24,8 @@
 ---
 
 It intercepts tile data requests from apps like News, Weather, and Finance, then feeds them updated info from sources like ESPN or BBC News.  
-It’s a preservation + revival project for anyone who misses Live Tiles on the Start Screen.
-
-> For setup instructions, see [here.](./setup.md)
-
-> [!NOTE]
-> Currently, only **Live Tile data** is restored — the full apps themselves are not functional through this proxy yet.
-
+It’s a preservation + revival project for anyone who misses Live Tiles.
+#### For setup instructions, see [here.](./setup.md)
 ---
 
 ## Why "OpenMetro"?
@@ -38,18 +36,20 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 
 ---
 
+> [!NOTE]
+> Currently, only **Live Tile data** is restored — the full apps themselves are not functional through this proxy yet.
+
 ## 🚧 Progress 
 ![](https://img.shields.io/badge/Tiles%20Revived-All-brightgreen?style=for-the-badge)
-| Tile                | Status             | Notes                                      |
-|---------------------|--------------------|--------------------------------------------|
-| **News**            | 🟢 Complete         | Multiple articles, images                  |
-| **Sports**          | 🟢 Complete         | One article, images                        |
-| **Finance**         | 🟢 Complete         | Multiple articles, no images               |
-| **Weather**         | 🟢 Complete         | Weather data, GeoIP                        |
-| **Health & Fitness**| 🟢 Complete         | Shows a tip or fact from a predefined list |
-| **Food & Drink**    | 🟢 Complete         | Receives recipes from themealdb            |
-| **Travel**          | 🟢 Complete         | Shows landscape images from Wikimedia      |
-| **Calendar/Mail**   | 🔴 Not planned      | Requires Microsoft Account authentication  |
+| Tile                | Status              | Notes                                      |
+|---------------------|---------------------|--------------------------------------------|
+| **News**            | 🟡 In progress      |                                            |
+| **Sports**          | 🔴 Incomplete       |                                            |
+| **Finance**         | 🔴 Incomplete       |                                            |
+| **Weather**         | 🔴 Incomplete       |                                            |
+| **Health & Fitness**| 🔴 Incomplete       |                                            |
+| **Food & Drink**    | 🔴 Incomplete       |                                            |
+| **Travel**          | 🔴 Incomplete       |                                            |
 
 <!--
 ![Apps Revived: None yet](https://img.shields.io/badge/Apps%20Revived%3A-None_yet-darkred?style=for-the-badge)
@@ -61,7 +61,6 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 | **Weather**          | 🟡 Maybe          | Format unknown                                 |
 | **Health & Fitness** | 🟢 Definitely     | Not a current priority                         |
 | **Food & Drink**     | 🟡 Maybe          | Not a current priority                         |
-| **Calendar/Mail**    | 🔴 Not planned    | Requires Microsoft Account authentication      |
 | **Windows Store**    | 🟠 Maybe          | Low priority – requires extensive reverse engineering |
 I'll come back to this.
 -->
@@ -88,10 +87,8 @@ I'll come back to this.
 | Key                  |                                  |
 |----------------------|----------------------------------|
 | 🟢 Complete          | Fully revived and functional     |
-| 🟡 Unknown/Maybe     | Investigating feasibility        |
-| 🔴 Not planned       | Currently not practical          |
-| 🟠 Maybe             | Could be done, but not a priority|
-
+| 🟡 In progress       | Working on implementation        |
+| 🔴 Incomplete        | Not yet implemented              |
 ---
 
 ## 🧰 Requirements
