@@ -112,3 +112,5 @@ It’s a preservation + revival project for anyone who misses Live Tiles on the 
 
 ---
 ## 📜 License: MIT
+###### Inspired by [Retiled](https://github.com/migbrunluz/Retiled-Win8.x).
+
