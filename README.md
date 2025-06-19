@@ -108,7 +108,6 @@ I'll come back to this.
 ### Main Goals
 - [x]  **Live Tile** functionality
 - [ ] **Revive most Metro apps**, including their Live Tiles
-- [ ] **Create an installer** (`.EXE` or `.MSI`) for easy setup
 - [ ] **Windows Store revival**
   - [ ] Serve custom Metro-style apps via proxy
   - [ ] Support viewing (but not purchasing) paid or unavailable apps
