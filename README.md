@@ -1,12 +1,11 @@
 # OpenMetro
 
 **OpenMetro** is a mitmproxy script that brings Windows 8.1’s Live Tiles back to life using modern APIs.
----
 
 > [!WARNING]
 > I'm reworking the code to OpenMetro. Stay tuned for updates!
 
-<details>
+<!--<details>
 <summary>📸 Screenshots</summary>
 
 ![LiveTilesStatic](https://github.com/user-attachments/assets/2ffc4aa7-5d50-4523-a0b8-0c2464bd609f)
@@ -19,14 +18,14 @@
 
 > Images are out of date. Updated images will be uploaded once most bugs are ironed out.
 
-</details>
+</details>-->
 
 ---
 
 It intercepts tile data requests from apps like News, Weather, and Finance, then feeds them updated info from sources like ESPN or BBC News.  
 It’s a preservation + revival project for anyone who misses Live Tiles.
 #### For setup instructions, see [here.](./setup.md)
----
+
 
 ## Why "OpenMetro"?
 
@@ -34,13 +33,11 @@ It’s a preservation + revival project for anyone who misses Live Tiles.
 
 "Open" reflects the spirit of open-source — anyone can view, use, and contribute to the project.
 
----
-
 > [!NOTE]
 > Currently, only **Live Tile data** is restored — the full apps themselves are not functional through this proxy yet.
 
 ## 🚧 Progress 
-![](https://img.shields.io/badge/Tiles%20Revived-All-brightgreen?style=for-the-badge)
+![](https://img.shields.io/badge/Tiles%20Revived-None-darkred?style=for-the-badge)
 | Tile                | Status              | Notes                                      |
 |---------------------|---------------------|--------------------------------------------|
 | **News**            | 🟡 In progress      |                                            |
