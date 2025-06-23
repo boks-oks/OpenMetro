@@ -33,20 +33,18 @@ It’s a preservation + revival project for anyone who misses Live Tiles.
 
 "Open" reflects the spirit of open-source — anyone can view, use, and contribute to the project.
 
-> [!NOTE]
-> Currently, only **Live Tile data** is restored — the full apps themselves are not functional through this proxy yet.
 
 ## 🚧 Progress 
-![](https://img.shields.io/badge/Tiles%20Revived-None-darkred?style=for-the-badge)
+![](https://img.shields.io/badge/Tiles%20Revived-1/7-darkred?style=for-the-badge)
 | Tile                | Status              | Notes                                      |
 |---------------------|---------------------|--------------------------------------------|
-| **News**            | 🟡 In progress      |                                            |
-| **Sports**          | 🔴 Incomplete       |                                            |
-| **Finance**         | 🔴 Incomplete       |                                            |
-| **Weather**         | 🔴 Incomplete       |                                            |
-| **Health & Fitness**| 🔴 Incomplete       |                                            |
-| **Food & Drink**    | 🔴 Incomplete       |                                            |
-| **Travel**          | 🔴 Incomplete       |                                            |
+| **News**            | In progress      |                                            |
+| **Sports**          | Incomplete       |                                            |
+| **Finance**         | Incomplete       |                                            |
+| **Weather**         | Complete       |                                            |
+| **Health & Fitness**| Incomplete       |                                            |
+| **Food & Drink**    | Incomplete       |                                            |
+| **Travel**          | Incomplete       |                                            |
 
 <!--
 ![Apps Revived: None yet](https://img.shields.io/badge/Apps%20Revived%3A-None_yet-darkred?style=for-the-badge)
@@ -63,29 +61,18 @@ I'll come back to this.
 -->
 ---
 
-![Apps](https://img.shields.io/badge/App_Revival-Not_any_time_soon-darkred?style=for-the-badge)
+![Apps](https://img.shields.io/badge/Apps:-At_a_later_date-black?style=for-the-badge)
 
-| App                  | Planned?                | Status / Notes                          |
-|----------------------|-------------------------|-----------------------------------------|
-| **News**             | ⚫ At a later date.     |  None                                   |
-| **Sports**           | ⚫ At a later date.     |  None                                   |
-| **Finance**          | ⚫ At a later date.     |  None                                   |
-| **Weather**          | ⚫ At a later date.     |  None                                   |
-| **Health & Fitness** | ⚫ At a later date.     |  None                                   |
-| **Food & Drink**     | ⚫ At a later date.     |  None                                   |
-| **Calendar/Mail**    | ⚫ At a later date.     |  None                                   |
-| **Windows Store**    | ⚫ At a later date.     |  None                                   |
-
-> I'm not going to revive apps just yet.
-> I need a break after working on this for over a week.
-
----
-
-| Key                  |                                  |
-|----------------------|----------------------------------|
-| 🟢 Complete          | Fully revived and functional     |
-| 🟡 In progress       | Working on implementation        |
-| 🔴 Incomplete        | Not yet implemented              |
+| App                  | Planned?             | Status / Notes                          |
+|----------------------|----------------------|-----------------------------------------|
+| **News**             | At a later date.     |  None                                   |
+| **Sports**           | At a later date.     |  None                                   |
+| **Finance**          | At a later date.     |  None                                   |
+| **Weather**          | At a later date.     |  None                                   |
+| **Health & Fitness** | At a later date.     |  None                                   |
+| **Food & Drink**     | At a later date.     |  None                                   |
+| **Calendar/Mail**    | At a later date.     |  None                                   |
+| **Windows Store**    | At a later date.     |  None                                   |
 ---
 
 ## 🧰 Requirements
@@ -107,11 +94,10 @@ I'll come back to this.
   - [ ] Support viewing (but not purchasing) paid or unavailable apps
 
 ---
-> OpenMetro is still in development and may contain bugs.
----
 ### 🌐 Sources
-##### [Badges from shields.io](https://shields.io/)
-##### [Analysis of `http://en-US.appex-rf.msn.com/cgtile/v1/en-US/News/Today.xml` on any.run](https://any.run/report/0170ceadd75b172e238c8c1c4cd1ab8d6df5aefde999733295ccf57d007630ea/c1ed3fbc-4ea6-4d0f-ac4b-12580eeb9f32)
+> [Badges from shields.io](https://shields.io/)</br>
+> [Analysis of `http://en-US.appex-rf.msn.com/cgtile/v1/en-US/News/Today.xml` on any.run](https://any.run/report/0170ceadd75b172e238c8c1c4cd1ab8d6df5aefde999733295ccf57d007630ea/c1ed3fbc-4ea6-4d0f-ac4b-12580eeb9f32)<br/>
+> [The tile template catalog](https://learn.microsoft.com/en-us/previous-versions/windows/apps/hh761491(v=win.10)).
 ---
 
 ![](https://img.shields.io/badge/Mentioned%20by-Copilot-blueviolet?style=for-the-badge)
@@ -119,6 +105,7 @@ I'll come back to this.
 | *I’m not even joking, try it for yourself!* |
 
 ---
-## 📜 License: MIT
-###### Inspired by [Retiled](https://github.com/migbrunluz/Retiled-Win8.x).
+> License: MIT</br>
+> OpenMetro is still in development and may contain bugs.</br>
+> OpenMetro is inspired by [Retiled](https://github.com/migbrunluz/Retiled-Win8.x).
 
