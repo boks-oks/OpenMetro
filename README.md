@@ -35,17 +35,18 @@ It’s a preservation + revival project for anyone who misses Live Tiles.
 
 
 ## 🚧 Progress 
-![](https://img.shields.io/badge/Tiles%20Revived-1/7-darkred?style=for-the-badge)
-| Tile                | Status              | Notes                                      |
-|---------------------|---------------------|--------------------------------------------|
-| **News**            | In progress      |                                            |
+![](https://img.shields.io/badge/Tiles%20Revived-2/7-red?style=for-the-badge)
+| Tile                | Status           | Notes                                      |
+|---------------------|------------------|--------------------------------------------|
+| **News**            | Complete         | Four articles, images.                     |
 | **Sports**          | Incomplete       |                                            |
 | **Finance**         | Incomplete       |                                            |
-| **Weather**         | Complete       |                                            |
+| **Weather**         | Complete         | Images, locally hosted siteⁱ grabs location.|
 | **Health & Fitness**| Incomplete       |                                            |
 | **Food & Drink**    | Incomplete       |                                            |
 | **Travel**          | Incomplete       |                                            |
 
+ⁱ Location data is used only for getting the lat/long for the Weather tile.
 <!--
 ![Apps Revived: None yet](https://img.shields.io/badge/Apps%20Revived%3A-None_yet-darkred?style=for-the-badge)
 | App                  | Planned?         | Status / Notes                                 |
