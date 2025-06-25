@@ -5,6 +5,8 @@
 > [!WARNING]
 > I'm reworking the code to OpenMetro. Stay tuned for updates!
 
+![Last Updated](https://img.shields.io/badge/Last_Updated-June_25,_2025,_4:10_PM_EST-blue?style=flat-square)
+
 <!--<details>
 <summary>📸 Screenshots</summary>
 
@@ -26,27 +28,19 @@ It intercepts tile data requests from apps like News, Weather, and Finance, then
 It’s a preservation + revival project for anyone who misses Live Tiles.
 #### For setup instructions, see [here.](./setup.md)
 
-
-## Why "OpenMetro"?
-
-"Metro" refers to the bold, typography-focused design language used in Windows 8.x.
-
-"Open" reflects the spirit of open-source — anyone can view, use, and contribute to the project.
-
-
-## 🚧 Progress 
-![](https://img.shields.io/badge/Tiles%20Revived-2/7-red?style=for-the-badge)
+## 🚧 Rework Progress 
+![](https://img.shields.io/badge/Tiles%20Revived-3/7-orange?style=for-the-badge)
 | Tile                | Status           | Notes                                      |
 |---------------------|------------------|--------------------------------------------|
-| **News**            | Complete         | Four articles, images.                     |
+| **News**            | Complete         | Multiple articles, images.                 |
 | **Sports**          | Incomplete       |                                            |
 | **Finance**         | Incomplete       |                                            |
-| **Weather**         | Complete         | Images, locally hosted siteⁱ grabs location.|
+| **Weather**         | Complete         |Images, locally hosted siteⁱ grabs location.|
 | **Health & Fitness**| Incomplete       |                                            |
-| **Food & Drink**    | Incomplete       |                                            |
+| **Food & Drink**    | Complete         | Multiple recipes, images. Uses TheMealDB   |
 | **Travel**          | Incomplete       |                                            |
 
-ⁱ Location data is used only for getting the lat/long for the Weather tile.
+ⁱ Location data is used only for getting the lat/long for the Weather tile, nothing else.
 <!--
 ![Apps Revived: None yet](https://img.shields.io/badge/Apps%20Revived%3A-None_yet-darkred?style=for-the-badge)
 | App                  | Planned?         | Status / Notes                                 |
@@ -109,4 +103,3 @@ I'll come back to this.
 > License: MIT</br>
 > OpenMetro is still in development and may contain bugs.</br>
 > OpenMetro is inspired by [Retiled](https://github.com/migbrunluz/Retiled-Win8.x).
-
