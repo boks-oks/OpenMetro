@@ -29,14 +29,14 @@ It’s a preservation + revival project for anyone who misses Live Tiles.
 #### For setup instructions, see [here.](./setup.md)
 
 ## 🚧 Rework Progress 
-![](https://img.shields.io/badge/Tiles%20Revived-3/7-orange?style=for-the-badge)
+![](https://img.shields.io/badge/Tiles%20Revived-4/7-yellow?style=for-the-badge)
 | Tile                | Status           | Notes                                      |
 |---------------------|------------------|--------------------------------------------|
 | **News**            | Complete         | Multiple articles, images.                 |
 | **Sports**          | Incomplete       |                                            |
 | **Finance**         | Incomplete       |                                            |
 | **Weather**         | Complete         |Images, locally hosted siteⁱ grabs location.|
-| **Health & Fitness**| Incomplete       |                                            |
+| **Health & Fitness**| Complete         | Images, one article.                       |
 | **Food & Drink**    | Complete         | Multiple recipes, images. Uses TheMealDB   |
 | **Travel**          | Incomplete       |                                            |
 
