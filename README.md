@@ -22,12 +22,13 @@ It’s a preservation + revival project for anyone who misses Live Tiles.
 | **News**            | Complete         | Multiple articles, images.                 |
 | **Sports**          | Complete         | Fetches data from ESPN news feed.          |
 | **Finance**         | Complete         | CNBC finance RSS.                          |
-| **Weather**         | Complete         |Images, locally hosted siteⁱ grabs location.|
+| **Weather**         | Complete         |Images, location fetched by a local serverⁱ.|
 | **Health & Fitness**| Complete         | Images, one article.                       |
 | **Food & Drink**    | Complete         | Multiple recipes, images. Uses TheMealDB.  |
 | **Travel**          | Complete         | Images from Wikimedia, image titles.       |
 
-ⁱ Location data is used only for getting the lat/long for the Weather tile, nothing else.
+ⁱ Location data is used solely to retrieve latitude/longitude for the Weather tile.
+This data is never stored or retained.
 
 ---
 
@@ -41,10 +42,9 @@ It’s a preservation + revival project for anyone who misses Live Tiles.
 
 ### 🌐 Sources
 > [Badges from shields.io](https://shields.io/)</br>
-> [Analysis of `http://en-US.appex-rf.msn.com/cgtile/v1/en-US/News/Today.xml` on any.run](https://any.run/report/0170ceadd75b172e238c8c1c4cd1ab8d6df5aefde999733295ccf57d007630ea/c1ed3fbc-4ea6-4d0f-ac4b-12580eeb9f32)<br/>
+> [Analysis of `http://en-US.appex-rf.msn.com/cgtile/v1/en-US/News/Today.xml` on any.run (see screenshots)](https://any.run/report/0170ceadd75b172e238c8c1c4cd1ab8d6df5aefde999733295ccf57d007630ea/c1ed3fbc-4ea6-4d0f-ac4b-12580eeb9f32)<br/>
 > [The tile template catalog](https://learn.microsoft.com/en-us/previous-versions/windows/apps/hh761491(v=win.10)).
 
 ---
 > License: MIT</br>
-> OpenMetro is still in development and may contain bugs.</br>
-> OpenMetro is inspired by [Retiled](https://github.com/migbrunluz/Retiled-Win8.x).
+> Inspired by [Retiled](https://github.com/migbrunluz/Retiled-Win8.x).
