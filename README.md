@@ -42,9 +42,9 @@ This data is never stored or retained.
 
 ### 🌐 Sources
 > [Badges from shields.io](https://shields.io/)</br>
-> [Analysis of `http://en-US.appex-rf.msn.com/cgtile/v1/en-US/News/Today.xml` on any.run (see screenshots)](https://any.run/report/0170ceadd75b172e238c8c1c4cd1ab8d6df5aefde999733295ccf57d007630ea/c1ed3fbc-4ea6-4d0f-ac4b-12580eeb9f32)<br/>
 > [The tile template catalog](https://learn.microsoft.com/en-us/previous-versions/windows/apps/hh761491(v=win.10)).
 
 ---
+
 > License: MIT</br>
 > Inspired by [Retiled](https://github.com/migbrunluz/Retiled-Win8.x).
