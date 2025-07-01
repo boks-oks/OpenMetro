@@ -2,9 +2,6 @@
 
 **OpenMetro** is a mitmproxy script that brings Windows 8.1’s Live Tiles back to life using modern APIs.
 
-> [!NOTE]
-> I've finished reworking the code to OpenMetro!
-
 ![Last Updated](https://img.shields.io/badge/Last_Updated-June_26,_2025,_8:10_PM_EST-blue?style=flat-square)
 
 ![Screenshot of the Start Screen with 7 live tiles](https://github.com/user-attachments/assets/2daaddaf-3560-4a2f-972f-426cc0167b69)
