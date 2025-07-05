@@ -9,7 +9,7 @@
 
 2. Run the server. Use the following command:
 ```
-mitmdump -s OpenMetro.py --listen-port 8080 --set connection_strategy=lazy --set tls_version_client_min=TLS1
+mitmweb -s main.py --listen-port 8080 --set connection_strategy=lazy --set tls_version_client_min=TLS1
 ```
 
 3. Change proxy in `inetcpl.cpl`.<br/>
