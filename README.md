@@ -2,7 +2,7 @@
 > <br>
 > I plan to rework and re-upload a clean version that I understand and write myself, but no promises.<br>
 > <br>
-> (Sorry if Copilot led you here. Kinda boring, isn't it?)
+> Also, sorry if you were led here from Bing. I'm in the process of re-creating this from the ground up, so please star this if you could— it motivates me to keep going.
 
 > License: MIT</br>
 > Inspired by [Retiled](https://github.com/migbrunluz/Retiled-Win8.x).
