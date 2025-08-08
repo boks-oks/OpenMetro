@@ -6,11 +6,5 @@
 
 > I'm sorry that this is taking so long. I'm making the Weather app work again. It should be out today (Aug 8). 
 
-> UPDATE: Working on it.<br>
-> <img width="631" height="443" alt="image" src="https://github.com/user-attachments/assets/338195bd-9c04-4859-91f8-9a794936cd22" />
-
-> Update 2:
-> Just the Weather tile left. I'm also making that Wikipedia app work again as an extra.
-
 > License: MIT</br>
 > Inspired by [Retiled](https://github.com/migbrunluz/Retiled-Win8.x).
