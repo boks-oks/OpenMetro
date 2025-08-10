@@ -1,0 +1,15 @@
+<tile>
+  <visual version="2">
+    <binding template="TileSquare310x310ImageAndText01">
+      <image id="1" src="{i1a3}" alt="alt text"/>
+      <text id="1">{t1a3}</text>
+    </binding>  
+    <binding template="TileSquare150x150Text04" fallback="TileSquareText04">
+      <text id="1">{t1a3}</text>
+    </binding>  
+    <binding template="TileWide310x150ImageAndText01" fallback="TileWideImageAndText01">
+      <image id="1" src="{i1a3}" alt="alt text"/>
+      <text id="1">{t1a3}</text>
+    </binding>  
+  </visual>
+</tile>

@@ -1,0 +1,12 @@
+<tile>
+  <visual version="2">
+    <binding template="TileWide310x150PeekImage04" fallback="TileWidePeekImage04">
+      <image id="1" src="{i1a1}" alt="alt text"/>
+      <text id="1">{t1a1}</text>
+    </binding>  
+    <binding template="TileSquare150x150PeekImageAndText04" fallback="TileSquarePeekImageAndText04">
+      <image id="1" src="{i1a1}" alt="alt text"/>
+      <text id="1">{t1a1}</text>
+    </binding>  
+  </visual>
+</tile>

@@ -1,0 +1,17 @@
+<tile>
+  <visual version="2">
+    <binding template="TileSquare310x310ImageAndText01">
+      <image id="1" src="{graphimage}" alt="alt text"/>
+      <text id="1">{symupdn}</text>
+    </binding>  
+    <binding template="TileSquare150x150PeekImageAndText02" fallback="TileSquarePeekImageAndText02">
+      <image id="1" src="{graphimage}" alt="alt text"/>
+      <text id="1">{symupdn}</text>
+      <text id="2"></text>
+    </binding>  
+    <binding template="TileWide310x150PeekImageAndText01" fallback="TileWidePeekImageAndText01">
+      <image id="1" src="{graphimage}" alt="alt text"/>
+      <text id="1">{symupdn}</text>
+    </binding>
+  </visual>
+</tile>
