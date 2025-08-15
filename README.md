@@ -26,6 +26,8 @@ In other words, Windows contacts mitmproxy first, mitmproxy edits the returned d
 
 # What is/isn't working.
 
+> I'll be posting quicker updates [here](https://boks-oks.github.io/main/).
+
 #### Tiles
 | Tile | Working? |
 | ------------- | ------------- |
