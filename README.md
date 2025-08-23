@@ -17,10 +17,10 @@ graph TD;
     Windows-->mitmproxy;
     mitmproxy-->RSS;
     RSS-->OpenMetro;
-    OpenMetro-->Tile-Data;
+    metrobox-->Tile-Data;
     Tile-Data-->Windows;
 ```
-In other words, Windows contacts mitmproxy first, mitmproxy edits the returned data which it gets from OpenMetro parsing RSS feeds.
+In other words, Windows contacts mitmproxy first, mitmproxy edits the returned data which it gets from metrobox parsing RSS feeds.
 
 </details>
 
