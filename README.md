@@ -16,7 +16,7 @@ This diagram should help.
 graph TD;
     Windows-->mitmproxy;
     mitmproxy-->RSS;
-    RSS-->OpenMetro;
+    RSS-->metrobox;
     metrobox-->Tile-Data;
     Tile-Data-->Windows;
 ```
